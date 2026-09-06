@@ -53,9 +53,8 @@
 .logo-image {
   display: block;
 
-  width: 100%;
+  width: 200px;
   height: auto;
-
   object-fit: contain;
 }
 
@@ -379,6 +378,12 @@
 /* MOBILE PEQUEÑO */
 
 @media (max-width: 480px) {
+
+  .logo-image {
+    width: 150px;
+    margin-left: 3rem;
+  }
+
   .header-container {
     width: calc(100% - 24px);
     grid-template-columns: auto 1fr auto;
