@@ -26,6 +26,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+section[id] { scroll-margin-top: var(--header-height); }
+
+::selection { background: var(--peach); color: #244f69; }
+
 button,
 a {
   font: inherit;
